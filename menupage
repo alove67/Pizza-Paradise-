@@ -5,20 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Paradise Menu</title>
   <style>
-    /* Add your CSS styles here */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: white;
+      color: black;
     }
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      padding: 20px;
       text-align: center;
     }
-    h1 {
-      margin-top: 0;
+    header h1 {
+      margin: 0;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: yellow;
+      padding: 10px;
+      text-align: center;
     }
     .container {
       max-width: 800px;
@@ -41,6 +65,14 @@
   <header>
     <h1>Pizza Paradise Menu</h1>
   </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
   <div class="container">
     <div class="menu-section">
       <h2>Pizza by the Slice</h2>
@@ -85,5 +117,8 @@
       </div>
     </div>
   </div>
+  <footer>
+    <p>&copy; 2024 Pizza Paradise. All rights reserved.</p>
+  </footer>
 </body>
 </html>
