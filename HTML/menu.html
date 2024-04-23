@@ -55,14 +55,19 @@
     .menu-item {
       border-bottom: 1px solid #ccc;
       padding: 20px 0;
-      display: flex; /* Add flex display */
-      align-items: center; /* Align items vertically */
+      display: flex;
+      align-items: center;
     }
     .menu-item img {
-      margin-left: auto; /* Push image to the right */
+      margin-left: auto;
+      max-width: 100px; /* Adjust image size */
+      margin-left: 20px; /* Add space between text and image */
     }
     .menu-item:last-child {
       border-bottom: none;
+    }
+    .menu-item img:hover {
+      transform: scale(1.1); /* Add hover effect */
     }
   </style>
 </head>
