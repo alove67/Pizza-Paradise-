@@ -144,6 +144,13 @@ header nav.horizontal {
     background-size: cover;
     display: block;
 }
+/* About Us Page */
+
+.container {
+    max-width: 800px;
+    margin: auto; /* Center the container */
+    padding: 20px;
+}
 
 /* Video */
 
