@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pizza Paradise Menu</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Pizza Paradise | Menu</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 </head>
 <body>
   <header>
     <h1>Pizza Paradise Menu</h1>
+    <nav>
+      <ul class="topnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul class="topnav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="menu.html" class="active">Menu</a></li>
-      <li><a href="aboutus.html">About Us</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+
   <div class="container">
     <div class="menu-section">
       <h2> Pizza by the Slice </h2>
@@ -97,9 +99,33 @@
         <img src="Images/cookies.jpg" alt="Cookies">
       </div>
     </div>
-  </div>
+  </div> 
+
   <footer>
-    <p>&copy; 2024 Pizza Paradise. All rights reserved.</p>
+    <div class="column">
+      <h3 class="rowtitle">USEFUL LINKS</h3>
+      <a href="#">Menu</a>
+      <a href="#">Deals</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="review.html">Reviews</a>
+    </div>
+  
+    <div class="column">
+      <h3 class="rowtitle">BUSINESS HOURS</h3>
+      <p>Monday-Friday: 11:00am to 11:00pm</p>
+      <p>Saturday: 11:00am to 12:00pm</p>
+      <p>Sunday: 11:00am to 11:00pm</p>
+      <p><i>Closed on major holidays.</i></p>
+    </div>
+  
+    <div class="column">
+      <h3 class="rowtitle">CONTACT</h3>
+      <p>Chicago, Illinois IL, 60457 </p>
+      <p>123-456-7890</p>
+      <p>Pizzaparadise@gmail.com</p>
+      <p>&copy; 2024 Pizza Paradise. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
